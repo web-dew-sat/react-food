@@ -12,7 +12,7 @@ import Category from "./pages/Category/Category";
 import Meal from "./pages/Meal/Meal";
 function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename='/react-food'>
           <>
               <Header />
               <main className="container content">
